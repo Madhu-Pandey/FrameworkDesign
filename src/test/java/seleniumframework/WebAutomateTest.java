@@ -38,7 +38,7 @@ public class WebAutomateTest {
 //		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.cssSelector(".ng-animating"))));
 		Thread.sleep(4000);
 		driver.findElement(By.cssSelector("[routerlink*='cart']")).click();
-//		driver.close();
+//		driver.close(); //
 	}
 
 }
