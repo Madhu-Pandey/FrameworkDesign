@@ -15,6 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class WebAutomateTest {
 
 	public static void main(String[] args) throws InterruptedException {
+		//Automation
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
